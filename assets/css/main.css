@@ -3042,7 +3042,7 @@
 	}
 
 .banner-p {
-	padding: 0 50px;
+	padding: 0 140px;
 }
 .image {
 	margin: 1em 1.25em
@@ -3062,4 +3062,14 @@
 .featured-p-div {
 	margin: 0 auto;
 	width: 870px;
+}
+.education-image img {
+	height: 360px;
+}
+#gsmst {
+	width: 360px;
+	padding: 0 50px;
+}
+.education-subtitle {
+	text-align: center;
 }
