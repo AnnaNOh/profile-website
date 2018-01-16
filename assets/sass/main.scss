@@ -591,7 +591,7 @@
 
 	#header {
 		position: relative;
-		background-image: url('../../images/header.jpg');
+		background-image: url('../../myimages/black-board-background.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -672,7 +672,7 @@
 
 			&:after {
 				content: '';
-				background: #1C0920;
+				background: black;
 				display: block;
 				position: absolute;
 				left: 0;

@@ -2096,7 +2096,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url('../../myimages/black-board-background.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2159,7 +2159,7 @@
 		}
 
 			#header hr:before, #header hr:after {
-				background: rgba(192, 192, 192, 0.35);
+				background: rgba(0, 0, 0, 0);
 			}
 
 		#header footer {
@@ -2177,7 +2177,7 @@
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: black;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2559,8 +2559,8 @@
 				}
 
 				.carousel article {
-					width: 18em;
-					margin: 0 1.25em 0 0;
+					width: 25em;
+					margin: 2em 1.25em 2em 0;
 				}
 
 	}
@@ -3040,3 +3040,19 @@
 					}
 
 	}
+
+.banner-p {
+	padding: 0 50px;
+}
+.image {
+	margin: 1em 1.25em
+}
+.project-title {
+	width: 250px;
+	text-align: center;
+	margin: 30px auto 0 auto;
+
+	font-size: 2.85em;
+	font-weight: 700;
+	border-bottom: 3px solid;
+}
