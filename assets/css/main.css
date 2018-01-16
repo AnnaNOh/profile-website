@@ -3055,7 +3055,13 @@
 	font-size: 2.85em;
 	font-weight: 700;
 	border-bottom: 3px solid;
+	padding-top: 50px;
 }
+.project-background {
+	background: white;
+	height: 150px;
+}
+
 .featured-image {
 	padding-top: 1.25em;
 }
