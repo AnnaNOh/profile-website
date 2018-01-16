@@ -3056,3 +3056,10 @@
 	font-weight: 700;
 	border-bottom: 3px solid;
 }
+.featured-image {
+	padding-top: 1.25em;
+}
+.featured-p-div {
+	margin: 0 auto;
+	width: 870px;
+}
